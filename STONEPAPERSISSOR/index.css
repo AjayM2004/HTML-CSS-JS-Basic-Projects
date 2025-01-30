@@ -1,0 +1,58 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  color:#526D82;
+  background-color: #27374D;
+}
+#choices{
+  margin: 0 30px;
+  
+}
+h1{
+  margin-bottom: 30px;
+  font-size: 3rem;
+  color:hsl(197, 51%, 11%);
+}
+#choices button{
+  max-width:150px;
+  height:150px;
+  font-size: 7.5rem;
+  background-color: hsl(215, 33%, 23%);
+  border-radius: 50%;
+  border:none;
+  text-align: center;
+  cursor:pointer;
+  transition: background-color 0.15s ease;
+  margin:30px;
+}
+#choices button:hover{
+  background-color: hsl(215, 33%, 50%);
+}
+#yourDetails,#computerDetails{
+  font-size: 2.5rem;
+}
+#results{
+  font-size:5rem;
+}
+.win{
+  color:hsl(108, 100%, 59%);
+}
+.lose{
+  color:hsl(0, 100%, 50%);
+}
+.tie{
+  color:hsl(39, 100%, 50%);
+}
+#container{
+  background-color: #DDE6ED;
+  width:800px;
+  height:800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius:50%;
+  justify-content: center;
+}
